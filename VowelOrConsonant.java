@@ -1,3 +1,4 @@
+/* write a program to read a character and print vowel or consonant */
 import java.util.Scanner;
 public class VowelOrConsonant {
    public static void main(String args[]){
@@ -11,3 +12,18 @@ public class VowelOrConsonant {
       }
    }
 }
+
+Output:
+C:\Users\stan>javac  VowelOrConsonant.java
+
+C:\Users\stan>java  VowelOrConsonant
+Enter a character :
+i
+Given character is an vowel
+
+C:\Users\stan>javac  VowelOrConsonant.java
+
+C:\Users\stan>java  VowelOrConsonant
+Enter a character :
+v
+Given character is a consonant
