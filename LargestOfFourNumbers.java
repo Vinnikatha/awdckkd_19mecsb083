@@ -1,4 +1,4 @@
-
+/* write a java program to find out biggest of four numbers */
 import java.util.Scanner;
 public class LargestOfFourNumbers 
 {
@@ -49,3 +49,18 @@ public class LargestOfFourNumbers
       sc.close();
    }
 }
+
+Output:
+C:\Users\stan>javac LargestOfFourNumbers.java
+
+C:\Users\stan>java LargestOfFourNumbers
+Please enter first number:
+40
+Please enter second number:
+80
+Please enter third number:
+360
+Please enter fourth number:
+12000
+Largest of four numbers is: 12000
+
