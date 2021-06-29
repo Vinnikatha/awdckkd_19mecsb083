@@ -1,3 +1,5 @@
+/* write a java program to check even or odd by using bitwise operator */
+
 import java.util.Scanner;
 public class Odd_Even
 {
