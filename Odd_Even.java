@@ -17,3 +17,18 @@ public class Odd_Even
         }
     }
 }
+
+
+
+output:
+C:\Users\stan>javac Odd_Even.java
+
+C:\Users\stan>java Odd_Even
+Enter the number you want to check:25
+The given number 25 is Odd
+
+C:\Users\stan>javac Odd_Even.java
+
+C:\Users\stan>java Odd_Even
+Enter the number you want to check:32
+The given number 32 is Even
