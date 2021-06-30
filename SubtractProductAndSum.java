@@ -1,3 +1,4 @@
+/*Leetcode program: Subtract the product and sum of digits of an integer */
 class Solution {
 public:
     int subtractProductAndSum(int n) {
