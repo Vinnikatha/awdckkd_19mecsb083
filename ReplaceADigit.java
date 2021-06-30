@@ -1,3 +1,4 @@
+/* Write a program to read a number 'n', read x & y numbers . change number x to y in given number 'n'. */
 // Java program to replace a digit with other in a given number.
 import java.util.*;
 class ReplaceADigit
