@@ -1,42 +1,32 @@
-/* Program to print given number is Harshad number or not */
-import java.util.Scanner;
-public class HarshadNumber {
+/*program to print given number is harshad number or not */
+import java.util.*;
+public class HarshadNumber 
+{  
+    public static void main(String[] args) {  
+        int num = 156;  
+        int rem = 0, sum = 0, n;  
+          
+        //Make a copy of num and store it in variable n  
+        n = num;  
+          
+        //Calculates sum of digits  
+        while(num > 0){  
+            rem = num%10;  
+            sum = sum + rem;  
+            num = num/10;  
+        }  
+          
+        //Checks whether number is divisible by sum of digits  
+        if(n%sum == 0)  
+            System.out.println(n + " is a harshad number");  
+        else  
+            System.out.println(n + " is not a harshad number");  
+    }  
+}  
  
-  public static void main(String args[]) {
- 
-    //Input number to be tested
-    System.out.print("Please enter number to be tested:");
-    Scanner scanner = new Scanner(System.in);
-    Long inputNo = scanner.nextLong();
- 
-    //Calculate sum of digits of inputNo
-    long temp = inputNo;
-    int sumOfDigits = 0;
-    while (temp > 0) {
-      long rem = temp % 10;
-      sumOfDigits += rem;
-      temp = temp / 10;
-    }
- 
-    //Check if inputNo is divisible by sum of its digits
-    if (inputNo % sumOfDigits == 0) {
-      System.out.println(inputNo + " is a Harshad Number");
-    } else {
-      System.out.println(inputNo + " is NOT a Harshad Number");
-    }
- 
-  }
-}
-
 Output:
-C:\Users\stan>javac HarshadNumber.java
-
-C:\Users\stan>java HarshadNumber
-Please enter number to be tested:156
-156 is a Harshad Number
 
 C:\Users\stan>javac HarshadNumber.java
 
 C:\Users\stan>java HarshadNumber
-Please enter number to be tested:22
-22 is NOT a Harshad Number
+156 is a harshad number
