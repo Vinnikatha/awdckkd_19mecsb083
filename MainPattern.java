@@ -1,3 +1,4 @@
+/* java program to print Pattern */
 import java.util.Scanner;
 public class MainPattern
 {
